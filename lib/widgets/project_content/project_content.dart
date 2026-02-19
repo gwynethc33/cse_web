@@ -184,17 +184,17 @@ class ProjectContent extends StatelessWidget {
     ];
 
     final project2Images = <String>[
-      'assets_webp/Doris_01.webp',
-      'assets_webp/Doris_02.webp',
-      'assets_webp/Doris_03.webp',
-      'assets_webp/Doris_04.webp',
+      'assets/images/flower.png',
+      'assets/images/flower.png',
+      'assets/images/flower.png',
+      'assets/images/flower.png',
     ];
 
     final project3Images = <String>[
-      'assets_webp/Wooster_01.webp',
-      'assets_webp/Wooster_02.webp',
-      'assets_webp/Wooster_03.webp',
-      'assets_webp/Wooster_04.webp',
+      'assets/images/flower.png',
+      'assets/images/flower.png',
+      'assets/images/flower.png',
+      'assets/images/flower.png',
     ];
 
     // captions
