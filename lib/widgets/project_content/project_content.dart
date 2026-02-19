@@ -280,7 +280,7 @@ class ProjectContent extends StatelessWidget {
               width: double.infinity,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/background.png'),
+                  image: AssetImage('assets/images/background1.png'),
                   fit: BoxFit.cover,
                 ),
               ),
