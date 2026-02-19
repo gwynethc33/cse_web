@@ -229,7 +229,7 @@ class ProjectContent extends StatelessWidget {
             Container(
               height: 220,
               width: double.infinity,
-              color: const Color.fromARGB(255, 131, 51, 72),
+              color: const Color.fromARGB(255, 181, 21, 34),
               padding: EdgeInsets.symmetric(horizontal: hPadding),
               alignment: Alignment.centerLeft,
               child: Text(
