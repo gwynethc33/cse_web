@@ -1,5 +1,4 @@
 [build]
-  base = "cse_web"
   publish = "build/web"
   command = """
     git clone https://github.com/flutter/flutter.git -b stable --depth 1
