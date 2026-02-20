@@ -41,7 +41,15 @@ class HomeContent extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(cardRadius),
               child: Container(
-                color: const Color(0xFFE3E0DD), // warm gray
+                decoration: BoxDecoration(
+                  color: const Color(0xFFF4F2EE),
+                  borderRadius: BorderRadius.circular(cardRadius),
+
+                  border: Border.all(
+                    color: const Color.fromARGB(255, 181, 21, 34),
+                    width: cardPad * 0.55,
+                  ),
+                ),
                 child: Stack(
                   children: [
                     Positioned.fill(
@@ -49,7 +57,7 @@ class HomeContent extends StatelessWidget {
                         padding: EdgeInsets.all(cardPad),
                         child: Container(
                           decoration: BoxDecoration(
-                            color: Colors.white.withOpacity(0.65),
+                            color: const Color(0xFFF4F2EE),
                             borderRadius: BorderRadius.circular(
                               cardRadius * 0.75,
                             ),

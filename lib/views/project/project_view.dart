@@ -1,6 +1,7 @@
 import 'package:cse_web/widgets/home_content/home_content.dart';
 import 'package:cse_web/widgets/project_content/project_content.dart';
 import 'package:flutter/material.dart';
+import 'package:cse_web/widgets/footer/footer.dart';
 
 class ProjectPage extends StatefulWidget {
   const ProjectPage({super.key});
@@ -25,7 +26,7 @@ class _ProjectPageState extends State<ProjectPage> {
           title: Material(color: Colors.white, elevation: 0),
         ),
         const SliverToBoxAdapter(child: ProjectContent()),
-        //const SliverToBoxAdapter(child: AppFooter()),
+        const SliverToBoxAdapter(child: AppFooter()),
       ],
     );
   }
