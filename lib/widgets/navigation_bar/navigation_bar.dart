@@ -81,13 +81,13 @@ class _NavigationBarState extends State<NavigationBar> {
               isActive: currentRoute == '/project',
               onTap: () => _go(context, '/project'),
             ),
-            const SizedBox(width: 40),
+           /* const SizedBox(width: 40),
             _NavBarItem(
               'Infographic',
               fontSize: navFontSize,
               isActive: currentRoute == '/infographic',
               onTap: () => _go(context, '/infographic'),
-            ),
+            ),*/
             const SizedBox(width: 40),
             _NavBarItem(
               'Reflection',

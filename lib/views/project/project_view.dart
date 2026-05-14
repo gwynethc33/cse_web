@@ -1,4 +1,3 @@
-import 'package:cse_web/widgets/home_content/home_content.dart';
 import 'package:cse_web/widgets/project_content/project_content.dart';
 import 'package:flutter/material.dart';
 import 'package:cse_web/widgets/footer/footer.dart';

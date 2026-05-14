@@ -1,5 +1,4 @@
 import 'package:cse_web/views/project/project_view.dart';
-import 'package:cse_web/widgets/about_content/about_content.dart';
 import 'package:flutter/material.dart';
 
 import 'package:cse_web/views/home/home_view.dart';

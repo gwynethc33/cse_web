@@ -184,17 +184,28 @@ class ProjectContent extends StatelessWidget {
     ];
 
     final project2Images = <String>[
-      'assets/images/flower.png',
-      'assets/images/flower.png',
-      'assets/images/flower.png',
-      'assets/images/flower.png',
+      'assets/images/proj2img1.jpg',
+      'assets/images/proj2img2.jpg',
+      'assets/images/proj2img3.jpg',
+      'assets/images/proj2img4.jpg',
+      'assets/images/proj2img5.jpg',
+      'assets/images/proj2img6.jpg',
+      'assets/images/proj2img7.jpg',
+      'assets/images/proj2img8.jpg',
+      'assets/images/proj2img9.jpg',
+      'assets/images/proj2img10.jpg',
     ];
 
     final project3Images = <String>[
-      'assets/images/flower.png',
-      'assets/images/flower.png',
-      'assets/images/flower.png',
-      'assets/images/flower.png',
+      'assets/images/proj3img1.jpg',
+      'assets/images/proj3img2.jpg',
+      'assets/images/proj3img3.jpg',
+      'assets/images/proj3img4.jpg',
+      'assets/images/proj3img5.jpg',
+      'assets/images/proj3img6.jpg',
+      'assets/images/proj3img7.jpg',
+      'assets/images/proj3img8.jpg',
+      'assets/images/proj3img9.jpg',
     ];
 
     // captions
@@ -294,7 +305,7 @@ class ProjectContent extends StatelessWidget {
                   Text(
                     'Projects Documentation',
                     style: TextStyle(
-                      color: const Color.fromARGB(255, 44, 73, 120),
+                      color: const Color.fromARGB(255, 43, 50, 63),
                       fontSize: sectionTitleFontSize,
                       fontWeight: FontWeight.w600,
                     ),
@@ -316,9 +327,9 @@ class ProjectContent extends StatelessWidget {
                   ),
                   //PROJECT 2
                   _projectItem(
-                    idea: 'Project idea 2',
+                    idea: 'Project 2: MAD Concert selling with board of beauty activity',
                     description:
-                        'Replace this with your project 2 description.',
+                        'Our second project is attending the MAD Concert to fundraise and teach underclassmen about self-love. For the fundraising, The Antifragile Project sold boba, and we raised about 155 tickets (\$155). Along with fundraising, The Antifragile Project had an interactive activity about beauty standards called the Board of Beauty. In the activity, people wrote one kind message about themself and displayed their message on a community corkboard to teach others self-encouragement.',
                     carouselImages: project2Images,
                     carouselCaptions: project2Captions,
                     ideaFontSize: ideaFontSize,
@@ -329,9 +340,9 @@ class ProjectContent extends StatelessWidget {
                   ),
                   //PROJECT 3
                   _projectItem(
-                    idea: 'Project idea 3',
+                    idea: 'Project 3: Underclassmen interviews and student responses',
                     description:
-                        'Replace this with your project 3 description.',
+                        'Our Third project was  student responses to a big question about friendship, and asking them follow-up questions on the damage of connections from social media to get underclassmen to reflect on the importance of friendships and how they shape our sense of belonging ',
                     carouselImages: project3Images,
                     carouselCaptions: project3Captions,
                     ideaFontSize: ideaFontSize,
